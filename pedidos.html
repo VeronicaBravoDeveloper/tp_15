@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../multimedia/favicon.ico" type="image/ico">
+    <title>Gastaldello e hijos-pedidos</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>
+                Gastaldello e hijos
+            </h1>
+        </div>
+        <br>
+        <div>
+            <h2>
+                PEDIDOS
+            </h2>
+        </div>
+    </header>
+    <main>
+        <section class="bg-light">
+            <form action="#">
+                <fieldset>
+                    <legend>Completa y mandanos tu pedido</legend>
+                    <br>
+                    <div>
+                        <label for="nombre">Nombre *</label><input type="text" required name="nombre">     <label for="apellido">Apellido *</label><input type="text" required name="apellido">
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="ciudad">Ciudad</label>
+                            <select name="ciudad" id="">
+                                <option value="bragado">Bragado</option>
+                                <option value="25 de mayo">25 de Mayo</option>
+                                <option value="mechita">Mechita</option>
+                                <option value="alberti">Alberti</option>
+                                <option value="9 de julio">9 de Julio</option>
+                                <option value="otra">Otra</option>
+                            </select>
+                        <label for="direccion">Direccion *</label><input type="text" required name="direccion">
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="email">Correo electronico</label>  <input type="email" name="email">     <label for="telefono">Telefono *</label><input type="text" required name="telefono">
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="pedido" name="pedido"> Escribe tu pedido</label> <textarea name="pedido" id="" cols="100" rows="10"></textarea>
+                    </div>
+                    <br><br>
+                    <div>
+                        <label for="robot">Confirma que no eres un robot *</label><input type="checkbox" required name="robot" value="humano">
+                    </div>
+                    <br><br>
+                    <div>
+                        <input type="submit" value="Enviar pedido">     <input type="reset" value="Borrar pedido">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <!--espacio para insertar el bootstrap con acordeon en vez de la tabla-->
+        </section>
+    </main>
+    <footer>
+        <section class="sectionMenu">
+            <a href="../index.html">INICIO</a>
+            <a href="trabajos.html">TRABAJOS</a>
+            <a href="catalogo.html">CATALOGO</a>
+            <a href="contacto.html">CONTACTO</a>
+            <br><br><br>
+            <a href="#top">Ir arriba</a>
+        </section>
+        <section>
+            <p>
+                creado por Kevin Gastaldello
+                <!--insertar redes y medios de contacto mios-->
+            </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+</html>
