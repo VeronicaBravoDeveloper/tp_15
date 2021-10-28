@@ -1,0 +1,22 @@
+@media only screen and (min-width: 768px) {
+    body {
+        grid-template-columns: repeat (4,1fr);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media only screen and (min-width: 480px) {
+    body{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

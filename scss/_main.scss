@@ -1,0 +1,103 @@
+@import "colores";
+
+main{
+    margin-top: 100px;
+    .gridMain{
+        display: grid;
+        grid-template-areas:
+        "img1 img2 img3 img3"
+        "img4 img5 img3 img3"
+        "img6 img6 img7 img8"
+        "img6 img6 img9 img10"
+        "img11 img11 img12 img12"
+        "img11 img11 img12 img12";
+        padding: 5px;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+div{
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    background-color: $background3;
+    color: $texto1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 100%;
+    transition: ease .5s;
+    &:hover{
+        background-color: $background2;
+        color: $texto1;
+        width: 100px;}
+}
+
+a{
+    text-decoration: none;
+    background-color: $background3;
+    color: $texto1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 100%;
+    transition: ease .5s;
+    &:hover{
+        background-color: $background2;
+        color: $texto1;
+    }
+}
+
+.contactoIzquierdo{
+    border: solid 1px $bordes;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-left: 200px;
+}
+.contactoDerecho{
+    float: right;
+    border: solid 1px $bordes;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-right: 200px;
+}
+form{
+    padding: 15px;
+}
+fieldset{
+    padding: 10px;
+}
+legend{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ulInicio{
+    margin-left: 400px;
+    list-style: none;
+    display: grid;
+    grid-template-areas:
+        "trabajos . pedidos"
+        ". logo ."
+        "catalogo . contacto";
+        li:hover{
+            transform: scale(2.2);
+            transition: all 1s;
+        }
+}
+
+.ulCatalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.divCarousel{
+    display: flex;
+    height: 600px;
+}

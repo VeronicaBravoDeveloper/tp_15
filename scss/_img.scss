@@ -1,0 +1,64 @@
+@import "tamaños";
+
+.imgLogo{
+    width: $tamaño1+100;
+    border-radius: 50%;
+}
+.img1{
+    grid-area: img1;
+    width: $tamaño1;
+}
+.img2{
+    grid-area: img2;
+    width: $tamaño1;
+}
+.img3{
+    grid-area: img3;
+    width: $tamaño1*2;
+}
+.img4{
+    grid-area: img4;
+    width: $tamaño1;
+}
+.img5{
+    grid-area: img5;
+    width: $tamaño1;
+}
+.img6{
+    grid-area: img6;
+    width: $tamaño1*2;
+}
+.img7{
+    grid-area: img7;
+    width: $tamaño1;
+}
+.img8{
+    grid-area: img8;
+    width: $tamaño1;
+}
+.img9{
+    grid-area: img9;
+    width: $tamaño1;
+}
+.img10{
+    grid-area: img10;
+    width: $tamaño1;
+}
+.img11{
+    grid-area: img11;
+    width: $tamaño1*2;
+}
+.img12{
+    grid-area: img12;
+    width: $tamaño1*2;
+}
+.galeriaImagenes{
+    opacity: 0.3;
+    border: 2px double $bordes;
+    margin: 10px;
+}
+.galeriaImagenes:hover{
+    opacity: 1;
+    border: solid 2px $bordes2;
+    transition-duration: 0.5s;
+}

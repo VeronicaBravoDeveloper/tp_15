@@ -1,0 +1,27 @@
+@import "colores";
+
+footer{
+    margin-top: 100px;
+}
+p{
+    border: 2px double $bordes;
+    display: flex;
+    float: right;
+    padding: 25px;
+    margin-right: 5px;
+}
+.sectionMenu{
+    text-align: center;
+}
+.animacionAparecer{
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
